@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔮 জ্যোতিষ, বাস্তুশাস্ত্র ও তন্ত্রবিদ্যা ই-বুক সংগ্রহ – মাত্র ₹169</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --royal: #1a1049;
+      --midnight: #080421;
+      --gold: #ffd700;
+      --cream: #fffaf0;
+      --text-dark: #222;
+      --text-muted: #555;
+    }
+
+    body {
+      font-family: 'Hind Siliguri', sans-serif;
+      margin: 0;
+      background: var(--cream);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: auto;
+      padding-bottom: 100px;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      background: radial-gradient(circle at top, #2b1a6d, var(--midnight));
+      color: #fff;
+      padding: 45px 20px;
+      margin-bottom: 35px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+    .hero h1 {
+      font-size: 2rem;
+      margin: 10px 0;
+      font-weight: 700;
+      color: var(--gold);
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: #e0d5ff;
+      margin: 12px 0 25px;
+    }
+
+    .product-image {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .product-image img {
+      width: 90%;
+      max-width: 340px;
+      border-radius: 12px;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25);
+    }
+
+    .benefits {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 15px 0;
+    }
+    .benefit {
+      background: rgba(255,255,255,0.15);
+      padding: 8px 14px;
+      border-radius: 18px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.25);
+    }
+
+    .ebook-note {
+      background: #fff3cd;
+      color: #5c4207;
+      padding: 12px 16px;
+      border-left: 4px solid var(--gold);
+      border-radius: 6px;
+      margin-top: 15px;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    /* PRICE CARD */
+    .price-card {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      padding: 20px;
+      text-align: center;
+      margin-top: 25px;
+    }
+    .price-card .stars {
+      color: #ffc400;
+      font-weight: 700;
+    }
+    .price-card .price-row {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 10px 0;
+      align-items: baseline;
+    }
+    .was { text-decoration: line-through; color: #999; }
+    .now { color: #6b21a8; font-size: 2rem; font-weight: 800; }
+    .cta {
+      display: inline-block;
+      background: linear-gradient(90deg, #2b1a6d, #6b21a8);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .cta:hover {
+      background: linear-gradient(90deg, #6b21a8, #2b1a6d);
+      transform: translateY(-2px);
+    }
+
+    /* VALUE SECTION */
+    .value-section {
+      background: #ffffff;
+      border-radius: 8px;
+      margin: 35px 0;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    .value-section h2 {
+      color: #2b1a6d;
+      text-align: center;
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+    }
+
+    .value-section h3 {
+      color: #4b0082;
+      font-size: 1.2rem;
+      margin-top: 18px;
+      border-left: 4px solid #4b0082;
+      padding-left: 8px;
+    }
+
+    .value-section p {
+      font-size: 0.96rem;
+      margin: 10px 0 15px;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .highlight-value {
+      background: linear-gradient(135deg, #2b1a6d, #000);
+      color: #fff;
+      padding: 14px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 15px 0 30px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    }
+
+    /* FAQ */
+    .faq {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .faq h2 {
+      color: #2b1a6d;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .faq p {
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    /* Sticky Button */
+    .sticky-buy-now {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background: linear-gradient(90deg, #2b1a6d, #4b0082);
+      padding: 8px 0;
+      z-index: 999;
+    }
+    .sticky-buy-now a {
+      display: inline-block;
+      background: linear-gradient(135deg, #1a1049, #6b21a8);
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-decoration: none;
+      padding: 10px 26px;
+      border-radius: 50px;
+      transition: 0.3s;
+    }
+    .sticky-buy-now a:hover {
+      transform: translateY(-2px);
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- HERO -->
+    <div class="hero">
+      <h1>🔮 জ্যোতিষ, বাস্তুশাস্ত্র ও তন্ত্রবিদ্যা ই-বুক সংগ্রহ</h1>
+      <p>রাশি, কুণ্ডলী, বাস্তুপরামর্শ ও তন্ত্রবিদ্যার রহস্য এখন একসাথে — বাংলায়, সহজভাবে!</p>
+      
+      <div class="product-image">
+        <img src="https://vedicfeed.com/wp-content/uploads/2018/12/Misconceptions-of-Vedic-Astrology.jpg" alt="জ্যোতিষ ই-বুক সংগ্রহ">
+      </div>
+
+      <div class="benefits">
+        <div class="benefit">🪔 ইনস্ট্যান্ট ডাউনলোড</div>
+        <div class="benefit">📖 আজীবন অ্যাক্সেস</div>
+        <div class="benefit">📱 মোবাইল ও কম্পিউটার-এ পড়া যাবে</div>
+      </div>
+
+      <div class="ebook-note">
+        📢 এটি একটি <b>ডিজিটাল ই-বুক (PDF)</b> সংগ্রহ — কোনও ফিজিক্যাল বই নয়।
+      </div>
+
+      <div class="price-card">
+        <div class="stars">★★★★★ <small>4.8 • 980 পাঠক</small></div>
+        <div class="price-row">
+          <div class="was">₹499</div>
+          <div class="now">₹169</div>
+        </div>
+        <p style="color:#555;">পূর্ণাঙ্গ জ্যোতিষ, বাস্তুশাস্ত্র ও তন্ত্রবিদ্যা ই-বুক সংগ্রহ — সীমিত অফারে</p>
+        <a href="https://superprofile.bio/vp/puran" class="cta">₹169 — এখনই ডাউনলোড করুন</a>
+        <div style="margin-top:10px;color:#6b21a8;font-weight:700;">অফার শেষ আজ রাত ১১:৫৯-এ</div>
+      </div>
+    </div>
+
+    <!-- VALUE SECTION -->
+    <div class="value-section">
+      <h2>📚 সংগ্রহে যা যা থাকছে</h2>
+
+      <h3>🔮 জ্যোতিষ বিদ্যা</h3>
+      <p>আপনি এখানে জ্যোতিষ শাস্ত্রের নানা দিক নিয়ে বিস্তারিত জানতে পারবেন। যেমন:<br>
+      • অধ্যাত্ম-জ্যোতিষ • জ্যোতিষ বিজ্ঞান • ফলিত জ্যোতিষ • কোষ্ঠী দেখা • হস্তরেখা বিচার<br>
+      ➤ <b>১৪টি গুরুত্বপূর্ণ জ্যোতিষ শাস্ত্রভিত্তিক ই-বুক।</b></p>
+
+      <h3>🏠 বাস্তুশাস্ত্র</h3>
+      <p>আপনার বাড়ি, কর্মক্ষেত্র ও জীবনের উন্নতির জন্য থাকছে:<br>
+      • বাস্তু বিচার • চাকরি ও ব্যবসার উন্নতির বাস্তুশাস্ত্র • সম্পদ ও সমৃদ্ধির রহস্য • শিশুর ভবিষ্যৎ উন্নতির পরামর্শ<br>
+      ➤ <b>৫টি বাস্তুশাস্ত্রভিত্তিক ই-বুক।</b></p>
+
+      <h3>🕉️ তন্ত্রবিদ্যা</h3>
+      <p>শক্তি, সাফল্য ও আত্মউন্নতির জন্য থাকছে:<br>
+      • কামরত্ন বশীকরণ তন্ত্র • ভূত দমার তন্ত্র • দশমহাবিদ্যা • কালীতন্ত্র • যোগিনী তন্ত্র<br>
+      ➤ <b>২০টিরও বেশি তন্ত্রবিদ্যা ই-বুক।</b></p>
+
+      <h3>🎁 অতিরিক্ত উপহার</h3>
+      <p>💎 <b>১০০+ Self Improvement ই-বুক!</b> আপনার ব্যক্তিত্ব, আত্মউন্নয়ন ও জীবনের উন্নতির জন্য — সম্পূর্ণ বিনামূল্যে, কেবলমাত্র আপনার জন্য!</p>
+    </div>
+
+    <div class="highlight-value">
+      💰 সব মিলিয়ে ১৪০+ Premium ই-বুক — মাত্র ₹169-এ আজই ডাউনলোড করুন!
+    </div>
+
+    <!-- FAQ -->
+    <div class="faq">
+      <h2>❓ সাধারণ প্রশ্নোত্তর</h2>
+      <p><b>📌 এটি কি ফিজিক্যাল বই?</b><br>না, এটি সম্পূর্ণ ডিজিটাল PDF সংগ্রহ।</p>
+      <p><b>📌 কখন পাব?</b><br>পেমেন্টের সঙ্গে সঙ্গেই ডাউনলোড লিঙ্ক পাবেন।</p>
+      <p><b>📌 কোন ডিভাইসে পড়া যাবে?</b><br>মোবাইল, ট্যাব, ও কম্পিউটার-এ পড়া যাবে।</p>
+    </div>
+  </div>
+
+  <div class="sticky-buy-now">
+    <a href="https://superprofile.bio/vp/puran">🔮 এখনই কিনুন – ₹169</a>
+  </div>
+
+</body>
+</html>
